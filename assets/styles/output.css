@@ -1638,19 +1638,6 @@ video {
        column-gap: 3vw;
 }
 
-.gap-y-\[3vw\] {
-  row-gap: 3vw;
-}
-
-.gap-y-\[6vw\] {
-  row-gap: 6vw;
-}
-
-.gap-x-\[4vw\] {
-  -moz-column-gap: 4vw;
-       column-gap: 4vw;
-}
-
 .gap-x-\[6vw\] {
   -moz-column-gap: 6vw;
        column-gap: 6vw;
@@ -1658,6 +1645,10 @@ video {
 
 .gap-y-\[4vw\] {
   row-gap: 4vw;
+}
+
+.gap-y-\[6vw\] {
+  row-gap: 6vw;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2228,18 +2219,9 @@ video {
   padding-bottom: 10vw;
 }
 
-.py-\[3vw\] {
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-}
-
 .py-\[8vw\] {
   padding-top: 8vw;
   padding-bottom: 8vw;
-}
-
-.pb-\[unset\] {
-  padding-bottom: unset;
 }
 
 .pt-\[12vw\] {
@@ -2947,10 +2929,6 @@ body {
     padding-bottom: 6vw;
   }
 
-  .sm\:pb-\[unset\] {
-    padding-bottom: unset;
-  }
-
   .sm\:pt-\[10vw\] {
     padding-top: 10vw;
   }
@@ -3088,6 +3066,11 @@ body {
     padding-right: 9.79166666667vw;
   }
 
+  .lg\:py-\[1\.61458333333vw\] {
+    padding-top: 1.61458333333vw;
+    padding-bottom: 1.61458333333vw;
+  }
+
   .lg\:py-\[2vw\] {
     padding-top: 2vw;
     padding-bottom: 2vw;
@@ -3104,10 +3087,6 @@ body {
 
   .lg\:pb-\[8\.02083333333vw\] {
     padding-bottom: 8.02083333333vw;
-  }
-
-  .lg\:pt-\[1\.61458333333vw\] {
-    padding-top: 1.61458333333vw;
   }
 
   .lg\:pt-\[10\.625vw\] {
