@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/output.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header
+      class="z-[2] absolute w-full top-0 left-0 lg:px-[5.20833333333vw] lg:pt-[1.61458333333vw] sm:p-[4vw] p-[6vw] pb-[unset] sm:pb-[unset]"
+    >
+      <div class="flex justify-between items-center">
+        <a
+          href="/"
+          class="relative z-[1] lg:static lg:w-[9.27083333333vw] sm:w-[20.8333333333vw] w-[26.9230769231vw] block"
+        >
+          <img src="./assets/images/logo.svg" alt="logo" class="w-full" />
+        </a>
+        <nav
+          class="flex items-center lg:block lg:h-[unset] h-[100svh] sideBar lg:static absolute top-0 left-0 w-full lg:w-[unset]"
+        >
+          <ul
+            class="text20 text-[#18181B] flex lg:gap-x-[1.5625vw] lg:flex-row flex-col sm:gap-y-[7vw] gap-y-[6vw] lg:w-[unset] lg:mx-[unset] mx-[auto] w-[90%]"
+          >
+            <li>
+              <a href="/pricing.html">Pricing</a>
+            </li>
+            <li>
+              <a href="/faqs.html">FAQs</a>
+            </li>
+            <li
+              class="flex items-center lg:gap-x-[0.52083333333vw] sm:gap-x-[2vw] gap-x-[3vw]"
+            >
+              <a href="/support.html">Support</a>
+              <img
+                src="./assets/images/icons/support.svg"
+                alt="support"
+                class="flipped lg:w-[0.83333333333vw] sm:w-[1.82291666667vw] w-[3.07692307692vw]"
+              />
+            </li>
+            <li class="text-[#992861]">
+              <a href="/">Log in</a>
+            </li>
+          </ul>
+        </nav>
+        <div
+          class="block lg:hidden menu w-[6vw] h-[6vw] sm:w-[4vw] sm:h-[4vw] cursor-pointer z-[2] top-[4px]"
+          onclick="toggleSidebar()"
+        >
+          <span class="top-0"></span>
+          <span class="top-[30%]"></span>
+          <span class="top-[60%]"></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div
+          class="w-full relative lg:mt-[7.5vw] sm:mt-[24vw] mt-[20vw] lg:pt-[5.88541666667vw] sm:pt-[10vw] pt-[12vw] lg:pb-[0.72916666666vw] lg:px-[9.79166666667vw] sm:px-[6%] px-[5%]"
+        >
+          <img
+            src="./assets/images/home/hero.jpg"
+            alt="hero"
+            class="absolute top-0 left-0 w-full h-full object-cover flipped"
+          />
+          <div
+            class="relative heroBox bg-[#FFF] lg:w-[32.8645833333vw] border12 lg:py-[3.125vw] sm:py-[6vw] py-[10vw]"
+          >
+            <div
+              class="mx-[auto] sm:w-[90%] lg:w-[81%] w-[81%] flex flex-col items-start"
+            >
+              <div class="text-[#18181B]">
+                <h1 class="text60">Share confidential files safely</h1>
+                <p class="text22 lg:mt-[1.5625vw] mt1">
+                  Securely transfer, store, and share files while preventing
+                  unauthorized sharing or viewing of your confidential data.
+                </p>
+              </div>
+              <a
+                href=""
+                class="lg:mt-[3.64583333333vw] sm:mt-[5vw] mt-[8vw] bg-[#992861] btn"
+              >
+                <span> get started </span>
+                <img
+                  src="./assets/images/icons/rightchevron.svg"
+                  alt="rightchevron"
+                  class="lg:w-[0.44442708333vw] sm:w-[1.30208333333vw] w-[2.05128205128vw] flipped"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="lg:w-[82.1354166667vw] mx-[auto] lg:pt-[10.625vw] pt1">
+          <h2 class="text60 text-[#18181B]">Explore our powerful features</h2>
+        </div>
+      </section>
+      <section class="lg:pt-[13.0208333333vw] pt1">
+        <div
+          class="relative sm:py-[12vw] py-[10vw] lg:pt-[4.27083333333vw] lg:pb-[8.02083333333vw] lg:px-[9.79166666667vw] sm:px-[6%] px-[5%] flex justify-end overflow-hidden"
+        >
+          <img
+            src="./assets/images/home/assistbg.jpg"
+            alt=""
+            class="absolute top-0 left-0 w-full lg:h-[41.1458333333vw] h-full flipped"
+          />
+          <div
+            class="lg:w-[48.0208333333vw] heroBox border12 lg:py-[3.125vw] sm:py-[6vw] py-[10vw] relative border12 bg-[#FFF]"
+          >
+            <div
+              class="mx-[auto] sm:w-[90%] lg:w-[81%] w-[81%] flex flex-col items-start"
+            >
+              <div class="text-[#18181B]">
+                <h3 class="text50">
+                  We are here to assist you in any way we can
+                </h3>
+                <p class="text22 lg:mt-[1.04166666667vw] mt1">
+                  You can reach out to our dedicated team. We're eager to
+                  provide you with the assistance you need.
+                </p>
+              </div>
+              <a
+                href=""
+                class="lg:mt-[3.125vw] sm:mt-[5vw] mt-[8vw] bg-[#992861] btn"
+              >
+                <span> Support </span>
+                <img
+                  src="./assets/images/icons/arrow.svg"
+                  alt="arrow"
+                  class="lg:w-[0.83333333333vw] sm:w-[2.30208333333vw] w-[3.05128205128vw] flipped"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#18181B]">
+      <div
+        class="flex-wrap gap-x-[2vw] sm:gap-y-[2vw] gap-y-[4vw] container1720 flex justify-between items-center lg:py-[2vw] sm:py-[4vw] py-[8vw]"
+      >
+        <span class="text16 text-[#9FA6B2]"
+          >© 2023 Grandtransfer. All rights reserved.</span
+        >
+        <ul
+          class="flex items-center sm:gap-x-[3vw] gap-x-[6vw] lg:gap-x-[1.14583333333vw]"
+        >
+          <li>
+            <a href="" target="_blank">
+              <img
+                src="./assets/images/icons/social/facebook.svg"
+                alt="facebook"
+                class="lg:w-[0.41244791666vw]"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <img
+                src="./assets/images/icons/social/twitter.svg"
+                alt="twitter"
+                class="lg:w-[0.81395833333vw]"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <img
+                src="./assets/images/icons/social/instagram.svg"
+                alt="instagram"
+                class="lg:w-[0.73197916666vw]"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <img
+                src="./assets/images/icons/social/linkedin.svg"
+                alt="linkedin"
+                class="lg:w-[0.74239583333vw]"
+              />
+            </a>
+          </li>
+        </ul>
+        <div
+          class="text-[#F4F5F7] flex items-center lg:gap-x-[1.40625vw] sm:gap-x-[3vw] gap-x-[6vw] capitalize text18"
+        >
+          <a href="/">terms & conditions</a>
+          <a href="/">privacy policy</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/javascripts/global.js"></script>
+  </body>
+</html>
