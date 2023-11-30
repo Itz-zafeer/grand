@@ -11,6 +11,7 @@
 body {
   font-family: pp mori;
   font-weight: 400;
+  color: #18181b;
 }
 @layer components {
   .container1720 {
@@ -74,8 +75,17 @@ body {
 .heroBox {
   box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.1);
 }
+.featuresCard {
+  border-radius: 0.625vw;
+  background: #fff;
+  box-shadow: 0px 5.06px 55.66px 0px rgba(0, 0, 0, 0.1);
+  padding: 0.625vw;
+}
 
 @media (max-width: 1024px) {
+  .featuresCard {
+    padding: 12px;
+  }
   /* HAMBURGER  */
   .menu {
     position: relative;
