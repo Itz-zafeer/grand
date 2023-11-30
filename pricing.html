@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/output.css" />
+    <title>Pricing</title>
+  </head>
+  <body>
+    <header
+      class="z-[2] absolute w-full top-0 left-0 lg:px-[5.20833333333vw] lg:py-[1.61458333333vw] sm:p-[4vw] p-[6vw]"
+    >
+      <div class="flex justify-between items-center">
+        <a
+          href="/"
+          class="relative z-[1] lg:static lg:w-[9.27083333333vw] sm:w-[20.8333333333vw] w-[26.9230769231vw] block"
+        >
+          <img src="./assets/images/logo.svg" alt="logo" class="w-full" />
+        </a>
+        <nav
+          class="flex items-center lg:block lg:h-[unset] h-[100svh] sideBar lg:static absolute top-0 left-0 w-full lg:w-[unset]"
+        >
+          <ul
+            class="text20 text-[#18181B] flex lg:gap-x-[1.5625vw] lg:flex-row flex-col sm:gap-y-[7vw] gap-y-[6vw] lg:w-[unset] lg:mx-[unset] mx-[auto] w-[90%]"
+          >
+            <li>
+              <a href="/pricing.html">Pricing</a>
+            </li>
+            <li>
+              <a href="/faqs.html">FAQs</a>
+            </li>
+            <li
+              class="flex items-center lg:gap-x-[0.52083333333vw] sm:gap-x-[2vw] gap-x-[3vw]"
+            >
+              <a href="#">Support</a>
+              <img
+                src="./assets/images/icons/support.svg"
+                alt="support"
+                class="flipped lg:w-[0.83333333333vw] sm:w-[1.82291666667vw] w-[3.07692307692vw]"
+              />
+            </li>
+            <li class="text-[#992861]">
+              <a href="/">Log in</a>
+            </li>
+          </ul>
+        </nav>
+        <div
+          class="block lg:hidden menu w-[6vw] h-[6vw] sm:w-[4vw] sm:h-[4vw] cursor-pointer z-[2] top-[4px]"
+          onclick="toggleSidebar()"
+        >
+          <span class="top-0"></span>
+          <span class="top-[30%]"></span>
+          <span class="top-[60%]"></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="bg-[#18181B]">
+        <div class="container1720">
+          <div
+            class="text-[#FFF] lg:w-[41.5625vw] pt-[30vw] pb-[12vw] sm:pt-[24vw] sm:pb-[10vw] lg:pb-[6.09375vw] lg:pt-[12.2395833333vw]"
+          >
+            <h1 class="text60">Pricing</h1>
+            <p class="text22 lg:mt-[1.04166666667vw] mt1">
+              Streamline your file processes with our comprehensive and
+              safeguarded solution for efficient file sharing.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div
+          class="lg:pt-[6.51041666667vw] pt1 lg:w-[89.6875vw] mx-[auto] sm:w-[87%] w-[87%]"
+        >
+          <div
+            class="overflow-hidden bg-[#F4F5F7] text25 lg:rounded-[4.16666666667vw] table lg:mx-[auto]"
+          >
+            <button
+              data-tab-target="#monthly"
+              class="active tab lg:px-[3.125vw] sm:px-[3.90625vw] px-[5.12820512821vw] text-[#161E2E] lg:rounded-[5.05208333333vw]"
+            >
+              <span> Monthly </span>
+            </button>
+            <button
+              data-tab-target="#annually"
+              class="lg:px-[3.125vw] sm:px-[3.90625vw] px-[5.12820512821vw] tab text-[#161E2E] lg:rounded-[5.05208333333vw]"
+            >
+              <span> Annually </span>
+            </button>
+          </div>
+          <div
+            class="lg:pt-[5.20833333333vw] sm:pt-[8.4166666667vw] pt-[14.3846153846vw]"
+          >
+            <div id="monthly" data-tab-content class="active">
+              <div
+                class="flex lg:gap-x-[1.5625vw] sm:gap-y-[8vw] gap-y-[10vw] flex-wrap"
+              >
+                <div
+                  class="lg:w-[21.25vw] sm:w-[80%] w-full lg:py-[3.125vw] sm:py-[6vw] py-[10vw] border12 bg-[#F4F5F7] relative overflow-hidden"
+                >
+                  <div
+                    class="text22 text-[#FFFFFF] bg-[#992861] border12 transform rotate-[-90deg] absolute recommend__Fixer"
+                  >
+                    <span> Recommended </span>
+                  </div>
+                  <div
+                    class="lg:pb-[1.92708333333vw] sm:pb-[2vw] pb-[2vw] mx-[auto] sm:w-[89%] lg:w-[75.50%] w-[80%] text-[#18181B] flex flex-col items-start"
+                  >
+                    <div
+                      class="lg:h-[11.09375vw] sm:h-[28.6458333333vw] h-[48.7179487179vw]"
+                    >
+                      <h4 class="text45">Free</h4>
+                      <p
+                        class="text20 lg:leading-[1.5625vw] lg:mt-[0.52083333333vw] mt1"
+                      >
+                        For the first 12 months
+                      </p>
+                    </div>
+                    <div>
+                      <h5 class="text20 lg:leading-[1.66666666667vw]">
+                        Features include:
+                      </h5>
+                      <ul
+                        class="text-[#6B7280] lg:mt-[1.04166666667vw] mt1 flex flex-col lg:gap-y-[0.36458333333vw] sm:gap-y-[0.65104166666vw] gap-y-[2.05128205128vw]"
+                      >
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Store up to 5 GB</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Transfer up to 0.09 GB/monthly</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >1 Dynamic watermarks</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >1 Workspace</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >1 Team member</span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <a
+                      href=""
+                      class="lg:mt-[4.16666666667vw] sm:mt-[5vw] mt-[8vw] bg-[#992861] btn lg:py-[0.78125vw] lg:px-[1.82291666667vw]"
+                    >
+                      <span class="capitalize"> Start Now </span>
+                      <img
+                        src="./assets/images/icons/rightchevron.svg"
+                        alt="rightchevron"
+                        class="lg:w-[0.44442708333vw] sm:w-[1.30208333333vw] w-[2.05128205128vw] flipped"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="lg:w-[21.25vw] sm:w-[80%] w-full lg:py-[3.125vw] sm:py-[6vw] py-[10vw] border12 bg-[#F4F5F7] relative overflow-hidden"
+                >
+                  <div
+                    class="text22 text-[#FFFFFF] bg-[#992861] border12 transform rotate-[-90deg] absolute recommend__Fixer"
+                  >
+                    <span> Recommended </span>
+                  </div>
+                  <div
+                    class="lg:pb-[1.92708333333vw] sm:pb-[2vw] pb-[2vw] mx-[auto] sm:w-[89%] lg:w-[75.50%] w-[80%] text-[#18181B] flex flex-col items-start"
+                  >
+                    <div
+                      class="lg:h-[11.09375vw] sm:h-[28.6458333333vw] h-[48.7179487179vw]"
+                    >
+                      <h4 class="text45">Plus</h4>
+                      <div
+                        class="lg:mt-[0.52083333333vw] mt1 flex lg:gap-x-[0.52083333333vw] sm:gap-x-[1.5vw] gap-x-[2vw]"
+                      >
+                        <span class="text-[#6B7280] text35"><del>$9</del></span>
+                        <span
+                          class="lg:text-[2.86458333333vw] lg:leading-[3.125vw] sm:text-[4.94791666667vw] sm:leading-[5.64583333333vw] text-[7.17948717949vw] leading-[9.17948717949vw]"
+                          >$2</span
+                        >
+                      </div>
+                      <p
+                        class="text20 lg:leading-[1.5625vw] lg:mt-[0.52083333333vw] mt1"
+                      >
+                        Per month
+                      </p>
+                    </div>
+                    <div>
+                      <h5 class="text20 lg:leading-[1.66666666667vw]">
+                        Features include:
+                      </h5>
+                      <ul
+                        class="text-[#6B7280] lg:mt-[1.04166666667vw] mt1 flex flex-col lg:gap-y-[0.36458333333vw] sm:gap-y-[0.65104166666vw] gap-y-[2.05128205128vw]"
+                      >
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Store up to 100 GB</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Transfer up to 0.05 GB/monthly</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >10 Dynamic watermarks</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >3 Workspace</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >3 Team member</span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <a
+                      href=""
+                      class="lg:mt-[4.16666666667vw] sm:mt-[5vw] mt-[8vw] bg-[#992861] btn lg:py-[0.78125vw] lg:px-[1.82291666667vw]"
+                    >
+                      <span class="capitalize"> Start Now </span>
+                      <img
+                        src="./assets/images/icons/rightchevron.svg"
+                        alt="rightchevron"
+                        class="lg:w-[0.44442708333vw] sm:w-[1.30208333333vw] w-[2.05128205128vw] flipped"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="rec lg:w-[21.25vw] sm:w-[80%] w-full lg:py-[3.125vw] sm:py-[6vw] py-[10vw] border12 bg-[#F4F5F7] relative overflow-hidden"
+                >
+                  <div
+                    class="text22 text-[#FFFFFF] bg-[#992861] border12 transform rotate-[-90deg] absolute recommend__Fixer"
+                  >
+                    <span> Recommended </span>
+                  </div>
+                  <div
+                    class="lg:pb-[1.92708333333vw] sm:pb-[2vw] pb-[2vw] mx-[auto] sm:w-[89%] lg:w-[75.50%] w-[80%] text-[#18181B] flex flex-col items-start"
+                  >
+                    <div
+                      class="lg:h-[11.09375vw] sm:h-[28.6458333333vw] h-[48.7179487179vw]"
+                    >
+                      <h4 class="text45">Pro</h4>
+                      <div
+                        class="lg:mt-[0.52083333333vw] mt1 flex lg:gap-x-[0.52083333333vw] sm:gap-x-[1.5vw] gap-x-[2vw]"
+                      >
+                        <span class="text-[#6B7280] text35"
+                          ><del>$15</del></span
+                        >
+                        <span
+                          class="lg:text-[2.86458333333vw] lg:leading-[3.125vw] sm:text-[4.94791666667vw] sm:leading-[5.64583333333vw] text-[7.17948717949vw] leading-[9.17948717949vw]"
+                          >$1</span
+                        >
+                      </div>
+                      <p
+                        class="text20 lg:leading-[1.5625vw] lg:mt-[0.52083333333vw] mt1"
+                      >
+                        Per month
+                      </p>
+                    </div>
+                    <div>
+                      <h5 class="text20 lg:leading-[1.66666666667vw]">
+                        Features include:
+                      </h5>
+                      <ul
+                        class="text-[#6B7280] lg:mt-[1.04166666667vw] mt1 flex flex-col lg:gap-y-[0.36458333333vw] sm:gap-y-[0.65104166666vw] gap-y-[2.05128205128vw]"
+                      >
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Store up to 1 TB</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Transfer up to 0.06 GB/monthly</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >50 Dynamic watermarks</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >10 Workspace</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Unlimited team members</span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <a
+                      href=""
+                      class="lg:mt-[4.16666666667vw] sm:mt-[5vw] mt-[8vw] bg-[#992861] btn lg:py-[0.78125vw] lg:px-[1.82291666667vw]"
+                    >
+                      <span class="capitalize"> Start Now </span>
+                      <img
+                        src="./assets/images/icons/rightchevron.svg"
+                        alt="rightchevron"
+                        class="lg:w-[0.44442708333vw] sm:w-[1.30208333333vw] w-[2.05128205128vw] flipped"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="lg:w-[21.25vw] sm:w-[80%] w-full lg:py-[3.125vw] sm:py-[6vw] py-[10vw] border12 bg-[#F4F5F7] relative overflow-hidden"
+                >
+                  <div
+                    class="text22 text-[#FFFFFF] bg-[#992861] border12 transform rotate-[-90deg] absolute recommend__Fixer"
+                  >
+                    <span> Recommended </span>
+                  </div>
+                  <div
+                    class="lg:pb-[1.92708333333vw] sm:pb-[2vw] pb-[2vw] mx-[auto] sm:w-[89%] lg:w-[75.50%] w-[80%] text-[#18181B] flex flex-col items-start"
+                  >
+                    <div
+                      class="lg:h-[11.09375vw] sm:h-[28.6458333333vw] h-[48.7179487179vw]"
+                    >
+                      <h4 class="text45">Max</h4>
+                      <div
+                        class="lg:mt-[0.52083333333vw] mt1 flex lg:gap-x-[0.52083333333vw] sm:gap-x-[1.5vw] gap-x-[2vw]"
+                      >
+                        <span class="text-[#6B7280] text35"
+                          ><del>$30</del></span
+                        >
+                        <span
+                          class="lg:text-[2.86458333333vw] lg:leading-[3.125vw] sm:text-[4.94791666667vw] sm:leading-[5.64583333333vw] text-[7.17948717949vw] leading-[9.17948717949vw]"
+                          >$2</span
+                        >
+                      </div>
+                      <p
+                        class="text20 lg:leading-[1.5625vw] lg:mt-[0.52083333333vw] mt1"
+                      >
+                        Per month
+                      </p>
+                    </div>
+                    <div>
+                      <h5 class="text20 lg:leading-[1.66666666667vw]">
+                        Features include:
+                      </h5>
+                      <ul
+                        class="text-[#6B7280] lg:mt-[1.04166666667vw] mt1 flex flex-col lg:gap-y-[0.36458333333vw] sm:gap-y-[0.65104166666vw] gap-y-[2.05128205128vw]"
+                      >
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Store up to 3 TB</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Transfer up to 0.08 GB/monthly</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Unlimited dynamic watermarks</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Unlimited workspaces</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Unlimited team members</span
+                          >
+                        </li>
+                        <li
+                          class="flex items-start lg:gap-x-[0.36458333333vw] sm:gap-x-[0.65104166666vw] gap-x-[2.05128205128vw]"
+                        >
+                          <img
+                            src="./assets/images/icons/check.svg"
+                            alt="check"
+                            class="flipped lg:w-[1.35416666667vw] sm:w-[3.125vw] w-[5.64102564103vw]"
+                          />
+                          <span
+                            class="text18 lg:leading-[1.66666666667vw] block"
+                            >Add-ons enabled</span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <a
+                      href=""
+                      class="lg:mt-[2.1875vw] sm:mt-[5vw] mt-[8vw] bg-[#992861] btn lg:py-[0.78125vw] lg:px-[1.82291666667vw]"
+                    >
+                      <span class="capitalize"> Start Now </span>
+                      <img
+                        src="./assets/images/icons/rightchevron.svg"
+                        alt="rightchevron"
+                        class="lg:w-[0.44442708333vw] sm:w-[1.30208333333vw] w-[2.05128205128vw] flipped"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="annually" data-tab-content>annuallyannually</div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex justify-center cursor-pointer"
+            onclick="togglePlan()"
+          >
+            <div
+              class="text-[#992861] border-b-[1px] border-[#992861] text20 flex items-center justify-center lg:gap-x-[0.52083333333vw] sm:gap-x-[2vw] gap-x-[3vw] lg:pt-[3.64583333333vw] pt1"
+            >
+              <span class="capitalize">plans comparison </span>
+              <img
+                src="./assets/images/icons/downarrow.svg"
+                alt="downarrow"
+                class="planArrow transition-all duration-300 lg:w-[0.83333333333vw] sm:w-[1.953125vw] w-[3.84615384615vw]"
+              />
+            </div>
+          </div>
+          <div
+            class="plan opacity-0 transition-all duration-300 max-h-[0] overflow-hidden flex items-start lg:w-[75.2083333333vw] ml_Fixer lg:mx-[auto] sm:w-[92%] w-[90%] border12 bg-[#F4F5F7]"
+          >
+            <div
+              class="lg:pb-[2.65625vw] sm:pb-[6vw] pb-[10vw] flex flex-col lg:pt-[3.125vw] sm:pt-[6vw] pt-[10vw] lg:w-[17.2916666667vw] lg:min-w-[17.2916666667vw] sm:min-w-[36.4583333333vw] sm:w-[36.4583333333vw] min-w-[65.3846153846vw] w-[65.3846153846vw] border-r-[1px] border-[#6B72804D]"
+            >
+              <h4
+                class="lg:px-[2.1875vw] sm:px-[3.90625vw] px-[6.15384615385vw] text28 border-b-[1px] border-[#6B72804D] lg:pb-[2.34375vw] sm:pb-[6vw] pb-[10vw]"
+              >
+                Features
+              </h4>
+
+              <div
+                class="lg:pt-[2.34375vw] sm:pt-[6vw] pt-[10vw] text-[#000] text22 lg:leading-[1.82291666667vw] lg:px-[2.1875vw] sm:px-[3.90625vw] px-[6.15384615385vw] flex flex-col lg:gap-y-[2.34375vw] sm:gap-y-[6vw] gap-y-[10vw]"
+              >
+                <h4>Storage up to</h4>
+                <h4>Monthly transfer up to</h4>
+                <h4>Watermarks</h4>
+                <h4>Workspaces</h4>
+                <h4>Team members</h4>
+                <h4>Secured sharing links</h4>
+                <h4>AI facial recognition</h4>
+                <h4>Add-ons (storage & transfer)</h4>
+              </div>
+            </div>
+            <div class="w-full">
+              <div
+                class="lg:pb-[2.34375vw] sm:px-[3.90625vw] px-[6.15384615385vw] lg:px-[4.27083333333vw] sm:pb-[6vw] pb-[10vw] border-b-[1px] border-[#6B72804D] lg:pt-[3.125vw] sm:pt-[6vw] pt-[10vw] flex justify-between lg:gap-x-[unset] gap-x-[10vw]"
+              >
+                <div
+                  class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                >
+                  <h4 class="text28">Free</h4>
+                </div>
+                <div
+                  class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                >
+                  <h4 class="text28">Plus</h4>
+                </div>
+                <div
+                  class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                >
+                  <h4 class="text28">Pro</h4>
+                </div>
+                <div
+                  class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                >
+                  <h4 class="text28">Max</h4>
+                </div>
+              </div>
+              <div
+                class="text20 lg:leading-[1.66666666667vw] sm:leading-[3.64583333333vw] leading-[7.17948717949vw] text-[#6B7280] lg:px-[4.27083333333vw] sm:px-[3.90625vw] px-[6.15384615385vw] lg:pt-[2.34375vw] sm:pt-[6vw] pt-[10vw] flex flex-col lg:gap-y-[2.34375vw] sm:gap-y-[6vw] gap-y-[10vw]"
+              >
+                <div class="flex justify-between lg:gap-x-[unset] gap-x-[10vw]">
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4>5 GB</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4>100 GB</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>1TB</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>3TB</h4>
+                  </div>
+                </div>
+                <div class="flex justify-between lg:gap-x-[unset] gap-x-[10vw]">
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4 class="whitespace-nowrap">0.09 GB/monthly</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4>0.05 GB/monthly</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>0.06 GB/monthly</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>0.08 GB/monthly</h4>
+                  </div>
+                </div>
+                <div class="flex justify-between lg:gap-x-[unset] gap-x-[10vw]">
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4 class="whitespace-nowrap">1</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4>10</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>50</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>Unlimited</h4>
+                  </div>
+                </div>
+                <div class="flex justify-between lg:gap-x-[unset] gap-x-[10vw]">
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4 class="whitespace-nowrap">1</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4>3</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>10</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>Unlimited</h4>
+                  </div>
+                </div>
+                <div class="flex justify-between lg:gap-x-[unset] gap-x-[10vw]">
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4 class="whitespace-nowrap">1</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4>3</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>Unlimited</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>Unlimited</h4>
+                  </div>
+                </div>
+                <div class="flex justify-between lg:gap-x-[unset] gap-x-[10vw]">
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4 class="whitespace-nowrap">Unlimited</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4>Unlimited</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>Unlimited</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>Unlimited</h4>
+                  </div>
+                </div>
+                <div class="flex justify-between lg:gap-x-[unset] gap-x-[10vw]">
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4 class="whitespace-nowrap">Enabled</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4>Enabled</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>Enabled</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>Enabled</h4>
+                  </div>
+                </div>
+                <div
+                  class="flex justify-between lg:gap-x-[unset] gap-x-[10vw] lg:pt-[1.5625vw]"
+                >
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4 class="whitespace-nowrap">-</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.28125vw] lg:w-[8.28125vw] text-center"
+                  >
+                    <h4>-</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>-</h4>
+                  </div>
+                  <div
+                    class="min-w-[41.0256410256vw] w-[41.0256410256vw] sm:w-[20.8333333333vw] sm:min-w-[20.8333333333vw] lg:min-w-[8.33333333333vw] lg:w-[8.33333333333vw] text-center"
+                  >
+                    <h4>Enabled</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="lg:pt-[13.0208333333vw] pt1">
+        <div
+          class="relative sm:py-[12vw] py-[10vw] lg:pt-[4.27083333333vw] lg:pb-[8.02083333333vw] lg:px-[9.79166666667vw] sm:px-[6%] px-[5%] flex justify-end overflow-hidden"
+        >
+          <img
+            src="./assets/images/home/assistbg.jpg"
+            alt=""
+            class="absolute top-0 left-0 w-full lg:h-[41.1458333333vw] h-full flipped"
+          />
+          <div
+            class="lg:w-[48.0208333333vw] heroBox border12 lg:py-[3.125vw] sm:py-[6vw] py-[10vw] relative border12 bg-[#FFF]"
+          >
+            <div
+              class="mx-[auto] sm:w-[90%] lg:w-[81%] w-[81%] flex flex-col items-start"
+            >
+              <div class="text-[#18181B]">
+                <h3 class="text50">
+                  We are here to assist you in any way we can
+                </h3>
+                <p class="text22 lg:mt-[1.04166666667vw] mt1">
+                  You can reach out to our dedicated team. We're eager to
+                  provide you with the assistance you need.
+                </p>
+              </div>
+              <a
+                href=""
+                class="lg:mt-[3.125vw] sm:mt-[5vw] mt-[8vw] bg-[#992861] btn"
+              >
+                <span> Support </span>
+                <img
+                  src="./assets/images/icons/arrow.svg"
+                  alt="arrow"
+                  class="lg:w-[0.83333333333vw] sm:w-[2.30208333333vw] w-[3.05128205128vw] flipped"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#18181B]">
+      <div
+        class="flex-wrap gap-x-[2vw] sm:gap-y-[2vw] gap-y-[4vw] container1720 flex justify-between items-center lg:py-[2vw] sm:py-[4vw] py-[8vw]"
+      >
+        <span class="text16 text-[#9FA6B2]"
+          >© 2023 Grandtransfer. All rights reserved.</span
+        >
+        <ul
+          class="flex items-center sm:gap-x-[3vw] gap-x-[6vw] lg:gap-x-[1.14583333333vw]"
+        >
+          <li>
+            <a href="" target="_blank">
+              <img
+                src="./assets/images/icons/social/facebook.svg"
+                alt="facebook"
+                class="lg:w-[0.41244791666vw]"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <img
+                src="./assets/images/icons/social/twitter.svg"
+                alt="twitter"
+                class="lg:w-[0.81395833333vw]"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <img
+                src="./assets/images/icons/social/instagram.svg"
+                alt="instagram"
+                class="lg:w-[0.73197916666vw]"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <img
+                src="./assets/images/icons/social/linkedin.svg"
+                alt="linkedin"
+                class="lg:w-[0.74239583333vw]"
+              />
+            </a>
+          </li>
+        </ul>
+        <div
+          class="text-[#F4F5F7] flex items-center lg:gap-x-[1.40625vw] sm:gap-x-[3vw] gap-x-[6vw] capitalize text18"
+        >
+          <a href="/terms-and-conditions.html">terms & conditions</a>
+          <a href="/privacy-policy.html">privacy policy</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/javascripts/global.js"></script>
+  </body>
+</html>

@@ -34,6 +34,26 @@ body {
     sm:text-[2.60416666667vw] sm:leading-[3.64583333333vw]
     text-[4.61538461538vw] leading-[7.17948717949vw];
   }
+  .text25 {
+    @apply lg:text-[1.30208333333vw] lg:leading-[3.125vw]
+    sm:text-[3.60416666667vw] sm:leading-[6.947917vw]
+    text-[5.61538461538vw] leading-[11.5384615385vw];
+  }
+  .text28 {
+    @apply lg:text-[1.45833333333vw] lg:leading-[2.34375vw]
+    sm:text-[3.60416666667vw] sm:leading-[6.947917vw]
+    text-[5.61538461538vw] leading-[11.5384615385vw];
+  }
+  .text35 {
+    @apply lg:text-[1.82291666667vw] lg:leading-[3.125vw]
+    sm:text-[4.60416666667vw] sm:leading-[5.64583333333vw]
+    text-[6.61538461538vw] leading-[9.17948717949vw];
+  }
+  .text45 {
+    @apply lg:text-[2.34375vw] lg:leading-[3.125vw]
+    sm:text-[4.20833333333vw] sm:leading-[5.51041666667vw]
+    text-[6.69230769231vw] leading-[9.2564102564vw];
+  }
   .text50 {
     @apply lg:text-[2.60416666667vw] lg:leading-[3.125vw]
     sm:text-[5.20833333333vw] sm:leading-[6.51041666667vw]
@@ -52,7 +72,7 @@ body {
   }
   .btn {
     @apply border44 lg:py-[1.04166666667vw] lg:px-[2.34375vw] sm:py-[2vw] sm:px-[4vw] py-[3vw] px-[7vw]
-    text-[#FFF] capitalize lg:gap-x-[0.52083333333vw] flex items-center sm:gap-x-[3vw] gap-x-[4vw]
+    text-[#FFF] capitalize lg:gap-x-[0.52083333333vw]  sm:gap-x-[3vw] gap-x-[4vw] flex items-center
     text20 lg:leading-[1.09375vw] sm:leading-[2.99479166667vw] leading-[5.38461538462vw] transition-all duration-300;
   }
 
@@ -68,7 +88,56 @@ body {
   .rtl .flipped {
     @apply transform scale-x-[-1];
   }
+  .ltr .recommend__Fixer {
+    @apply lg:left-[12.6041666667vw] sm:left-[45vw] left-[45vw];
+  }
+  .rtl .recommend__Fixer {
+    @apply lg:right-[12.6041666667vw] sm:right-[45vw] right-[45vw];
+  }
+  .ltr .ml_Fixer {
+    @apply ml-[auto];
+  }
+  .recommend__Fixer {
+    @apply lg:px-[1.14583333333vw] lg:py-[0.88541666666vw] sm:py-[2.60416666667vw] sm:px-[3.90625vw]
+    py-[3.84615384615vw] px-[7.69230769231vw]
+    lg:top-[3.38541666667vw] sm:top-[8vw] top-[15vw] hidden;
+  }
+  .rec .recommend__Fixer {
+    display: block;
+  }
+  .plan.active {
+    @apply max-h-[2000px] opacity-[1] lg:mt-[2.60416666667vw] sm:mt-[10.4166666667vw] mt-[15.3846153846vw];
+  }
+  .faq_Main.active img,
+  .planArrow.active {
+    @apply transform rotate-[180deg];
+  }
+
+  .faq_Main {
+    @apply cursor-pointer;
+  }
+
+  .faq_Main.active .faq_Ans {
+    @apply max-h-[2000px] opacity-[1] lg:mt-[0.52083333333vw] sm:mt-[15px] mt-[10px];
+  }
 }
+header {
+  background-color: #fff;
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+.tab.active {
+  background-color: #161e2e;
+  color: #fff;
+}
+
 .sideBar ul li a {
   text-transform: capitalize;
 }
