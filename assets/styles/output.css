@@ -2848,6 +2848,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
@@ -3167,6 +3172,10 @@ video {
   transition-duration: 300ms;
 }
 
+.duration-500 {
+  transition-duration: 500ms;
+}
+
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
@@ -3232,6 +3241,23 @@ header {
   padding: 0.625vw;
 }
 
+.stickyHeader {
+  position: fixed;
+  top: -7vw;
+  z-index: 5;
+  box-shadow: 0px 5.06px 55.66px 0px rgba(0, 0, 0, 0.1);
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.stickyHeaderTransition {
+  transition: 0.5s;
+}
+
+.stickyHeaderShow {
+  top: 0;
+}
+
 @media (max-width: 1024px) {
   .featuresCard {
     padding: 12px;
@@ -3274,7 +3300,7 @@ header {
   }
 
   .sideBar ul li {
-    border-bottom: 1px solid #18181b;
+    border-bottom: 1px solid #fff;
     padding-bottom: 2vw;
   }
 
@@ -3290,8 +3316,8 @@ header {
   .sideBar {
     opacity: 0;
     pointer-events: none;
-    -webkit-backdrop-filter: blur(30px) brightness(0.7);
-    backdrop-filter: blur(30px) brightness(0.7);
+    -webkit-backdrop-filter: blur(30px) brightness(0.5);
+    backdrop-filter: blur(30px) brightness(0.5);
     transition: all 0.5s;
   }
 
@@ -3341,6 +3367,11 @@ header {
 
 .hover\:font-bold:hover {
   font-weight: 700;
+}
+
+.hover\:text-\[\#992861\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(153 40 97 / var(--tw-text-opacity));
 }
 
 .before\:hover\:text-center:hover::before {
@@ -4079,6 +4110,21 @@ header {
 
   .lg\:leading-\[3\.125vw\] {
     line-height: 3.125vw;
+  }
+
+  .lg\:text-\[\#18181B\] {
+    --tw-text-opacity: 1;
+    color: rgb(24 24 27 / var(--tw-text-opacity));
+  }
+
+  .lg\:hover\:text-\[\#992861\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(153 40 97 / var(--tw-text-opacity));
+  }
+
+  .lg\:hover\:text-\[\#18181B\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(24 24 27 / var(--tw-text-opacity));
   }
 }
 
