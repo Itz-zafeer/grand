@@ -45,9 +45,9 @@ body {
     text-[5.61538461538vw] leading-[11.5384615385vw];
   }
   .text35 {
-    @apply lg:text-[1.82291666667vw] lg:leading-[3.125vw]
-    sm:text-[4.60416666667vw] sm:leading-[5.64583333333vw]
-    text-[6.61538461538vw] leading-[9.17948717949vw];
+    @apply lg:text-[1.5vw] lg:leading-[2.125vw]
+    sm:text-[3.60416666667vw] sm:leading-[4.64583333333vw]
+    text-[4.8vw] leading-[7vw];
   }
   .text45 {
     @apply lg:text-[2.34375vw] lg:leading-[3.125vw]
@@ -118,7 +118,7 @@ body {
   }
 
   .faq_Main.active .faq_Ans {
-    @apply max-h-[2000px] opacity-[1] lg:mt-[0.52083333333vw] sm:mt-[15px] mt-[10px];
+    @apply max-h-[180vw] sm:max-h-[45vw] lg:max-h-[24vw] opacity-[1] lg:mt-[0.52083333333vw] sm:mt-[15px] mt-[10px];
   }
 }
 header {
@@ -150,6 +150,9 @@ header {
   box-shadow: 0px 5.06px 55.66px 0px rgba(0, 0, 0, 0.1);
   padding: 0.625vw;
 }
+/* header {
+  position: fixed;
+} */
 .stickyHeader {
   position: fixed;
   top: -7vw;
@@ -211,6 +214,9 @@ header {
   body.active {
     height: 100svh;
     overflow: hidden;
+  }
+  .delaySmbhal {
+    transition-delay: 400ms;
   }
   /* HAMBURGER  */
 }

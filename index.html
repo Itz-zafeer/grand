@@ -9,6 +9,7 @@
     />
     <meta name="googlebot" content="noindex" />
     <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="./assets/styles/aos.css" />
     <link rel="stylesheet" href="./assets/styles/output.css" />
     <title>
       Secure File Sharing - Protect Your Confidential Data Online |
@@ -37,7 +38,10 @@
       property="og:description"
       content="Share confidential files safely with our secure file sharing service. Transfer, store, and share your files securely and prevent unauthorized viewing or sharing of your sensitive data. Trust in our robust privacy controls for your peace of mind."
     />
-    <meta property="og:image" content="/assets/images/ogImage.jpg" />
+    <meta
+      property="og:image"
+      content="https://www.grandtransfer.io/assets/images/ogImage.jpg"
+    />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -54,7 +58,10 @@
       property="twitter:description"
       content="Share confidential files safely with our secure file sharing service. Transfer, store, and share your files securely and prevent unauthorized viewing or sharing of your sensitive data. Trust in our robust privacy controls for your peace of mind."
     />
-    <meta property="twitter:image" content="/assets/images/ogImage.jpg" />
+    <meta
+      property="twitter:image"
+      content="https://www.grandtransfer.io/assets/images/ogImage.jpg"
+    />
     <meta property="twitter:image:width" content="1200" />
     <meta property="twitter:image:height" content="630" />
     <meta
@@ -95,7 +102,7 @@
   </head>
   <body>
     <header
-      class="z-[2] absolute w-full top-0 left-0 lg:px-[5.20833333333vw] lg:py-[1.61458333333vw] sm:p-[4vw] p-[6vw]"
+      class="z-[12] fixed w-full top-0 left-0 lg:px-[5.20833333333vw] lg:py-[1.61458333333vw] sm:p-[4vw] p-[6vw]"
     >
       <div class="flex justify-between items-center">
         <a
@@ -119,7 +126,9 @@
             <li
               class="flex items-center lg:gap-x-[0.52083333333vw] sm:gap-x-[2vw] gap-x-[3vw] lg:hover:text-[#992861] transition-all duration-500"
             >
-              <a href="https://support.grandautomation.io/login">Support</a>
+              <a target="_blank" href="https://support.grandautomation.io/login"
+                >Support</a
+              >
               <img
                 src="./assets/images/icons/support.svg"
                 alt="support"
@@ -129,7 +138,9 @@
             <li
               class="text-[#992861] lg:hover:text-[#18181B] transition-all duration-500"
             >
-              <a href="https://app.grandtransfer.io/login">Log in</a>
+              <a target="_blank" href="https://app.grandtransfer.io/login"
+                >Log in</a
+              >
             </li>
           </ul>
         </nav>
@@ -160,13 +171,17 @@
               class="mx-[auto] sm:w-[90%] lg:w-[81%] w-[81%] flex flex-col items-start"
             >
               <div class="text-[#18181B]">
-                <h1 class="text60">Share confidential files safely</h1>
-                <p class="text22 lg:mt-[1.5625vw] mt1">
+                <h1 data-aos="fade-up" class="text60">
+                  Share confidential files safely
+                </h1>
+                <p data-aos="fade-down" class="text22 lg:mt-[1.5625vw] mt1">
                   Securely transfer, store, and share files while preventing
                   unauthorized sharing or viewing of your confidential data.
                 </p>
               </div>
               <a
+                data-aos="fade"
+                data-aos-delay="400"
                 href="/pricing.html#plans"
                 class="lg:mt-[3.64583333333vw] sm:mt-[5vw] mt-[8vw] bg-[#992861] btn"
               >
@@ -187,7 +202,9 @@
         <div
           class="w-[90vw] sm:w-[82.1354166667vw] mx-[auto] mb-[24px] sm:mb-[3.64583333333vw]"
         >
-          <h2 class="text60 text-[#18181B]">Explore our powerful features</h2>
+          <h2 class="text60 text-[#18181B]" data-aos="fade-up">
+            Explore our powerful features
+          </h2>
         </div>
         <div
           class="w-[90vw] sm:w-[82.1354166667vw] mx-[auto] flex flex-col-reverse lg:flex-row gap-y-[30px]"
@@ -196,6 +213,8 @@
             class="w-full sm:h-[75vw] lg:h-[unset] lg:w-[35.2604166667vw] relative z-[2]"
           >
             <div
+              data-aos="fade"
+              data-aos-delay="600"
               class="featuresCard w-[35vw] lg:w-[17.5520833333vw] top-0 lg:top-[2.34375vw] left-[18vw] lg:left-[6.97916666667vw] absolute"
             >
               <img
@@ -205,6 +224,8 @@
               />
             </div>
             <div
+              data-aos="fade"
+              data-aos-delay="800"
               class="featuresCard w-[65vw] left-[6vw] lg:w-[29.6875vw] bottom-[6.71875vw] lg:left-[2.55208333333vw] absolute"
             >
               <img
@@ -214,6 +235,8 @@
               />
             </div>
             <div
+              data-aos="fade"
+              data-aos-delay="400"
               class="featuresCard w-[28vw] right-[2vw] lg:w-[12.7604166667vw] top-[4.42708333333vw] lg:left-[24.0104166667vw] absolute"
             >
               <img
@@ -237,10 +260,13 @@
             </div>
             <div class="p-[24px] sm:p-[30px] lg:p-[3.64583333333vw] w-full">
               <div class="sm:max-w-[66vw] lg:max-w-[31.0416666667vw]">
-                <h5 class="text50 mb-[16px] sm:mb-[1.5625vw]">
+                <h5
+                  data-aos="fade-up"
+                  class="text50 mb-[16px] sm:mb-[1.5625vw]"
+                >
                   Secure and private file sharing
                 </h5>
-                <p class="text22">
+                <p data-aos="fade-down" class="text22">
                   With features such as advanced encryption, password
                   protection, screenshot prevention, and document expiry, ensure
                   your confidential documents are shared the way you need them
@@ -251,7 +277,7 @@
           </div>
         </div>
       </section>
-      <section class="lg:pt-[13.0208333333vw] pt1">
+      <section class="lg:pt-[7.0208333333vw] pt1">
         <div
           class="relative sm:py-[12vw] py-[10vw] lg:pt-[4.27083333333vw] lg:pb-[8.02083333333vw] lg:px-[9.79166666667vw] sm:px-[6%] px-[5%] flex justify-end overflow-hidden"
         >
@@ -267,15 +293,19 @@
               class="mx-[auto] sm:w-[90%] lg:w-[81%] w-[81%] flex flex-col items-start"
             >
               <div class="text-[#18181B]">
-                <h3 class="text50">
+                <h3 data-aos="fade-up" class="text50">
                   We are here to assist you in any way we can
                 </h3>
-                <p class="text22 lg:mt-[1.04166666667vw] mt1">
+                <p
+                  data-aos="fade-down"
+                  class="text22 lg:mt-[1.04166666667vw] mt1"
+                >
                   You can reach out to our dedicated team. We're eager to
                   provide you with the assistance you need.
                 </p>
               </div>
               <a
+                target="_blank"
                 href="https://support.grandautomation.io/login"
                 class="lg:mt-[3.125vw] sm:mt-[5vw] mt-[8vw] bg-[#992861] btn"
               >
@@ -346,6 +376,7 @@
         </div>
       </div>
     </footer>
+    <script src="./assets/javascripts/aos.min.js"></script>
     <script src="./assets/javascripts/global.js"></script>
   </body>
 </html>

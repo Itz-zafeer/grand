@@ -9,6 +9,7 @@
     />
     <meta name="googlebot" content="noindex" />
     <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="./assets/styles/aos.css" />
     <link rel="stylesheet" href="./assets/styles/output.css" />
     <title>Privacy Policy - Data Protection & Privacy | | GrandTransfer</title>
     <meta
@@ -34,7 +35,10 @@
       property="og:description"
       content="Read GrandTransfer's Privacy Policy to learn how we protect your personal data and privacy. Our commitment to data security is reflected in our transparent privacy practices and measures."
     />
-    <meta property="og:image" content="/assets/images/ogImage.jpg" />
+    <meta
+      property="og:image"
+      content="https://www.grandtransfer.io/assets/images/ogImage.jpg"
+    />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -51,7 +55,10 @@
       property="twitter:description"
       content="Read GrandTransfer's Privacy Policy to learn how we protect your personal data and privacy. Our commitment to data security is reflected in our transparent privacy practices and measures."
     />
-    <meta property="twitter:image" content="/assets/images/ogImage.jpg" />
+    <meta
+      property="twitter:image"
+      content="https://www.grandtransfer.io/assets/images/ogImage.jpg"
+    />
     <meta property="twitter:image:width" content="1200" />
     <meta property="twitter:image:height" content="630" />
     <meta
@@ -92,7 +99,7 @@
   </head>
   <body>
     <header
-      class="z-[2] absolute w-full top-0 left-0 lg:px-[5.20833333333vw] lg:py-[1.61458333333vw] sm:p-[4vw] p-[6vw]"
+      class="z-[12] fixed w-full top-0 left-0 lg:px-[5.20833333333vw] lg:py-[1.61458333333vw] sm:p-[4vw] p-[6vw]"
     >
       <div class="flex justify-between items-center">
         <a
@@ -116,7 +123,9 @@
             <li
               class="flex items-center lg:gap-x-[0.52083333333vw] sm:gap-x-[2vw] gap-x-[3vw] lg:hover:text-[#992861] transition-all duration-500"
             >
-              <a href="https://support.grandautomation.io/login">Support</a>
+              <a target="_blank" href="https://support.grandautomation.io/login"
+                >Support</a
+              >
               <img
                 src="./assets/images/icons/support.svg"
                 alt="support"
@@ -126,7 +135,9 @@
             <li
               class="text-[#992861] lg:hover:text-[#18181B] transition-all duration-500"
             >
-              <a href="https://app.grandtransfer.io/login">Log in</a>
+              <a target="_blank" href="https://app.grandtransfer.io/login"
+                >Log in</a
+              >
             </li>
           </ul>
         </nav>
@@ -146,7 +157,7 @@
           <div
             class="text-[#FFF] lg:w-[41.5625vw] pt-[35vw] pb-[15vw] sm:pt-[28vw] sm:pb-[15vw] lg:pb-[8.28125vw] lg:pt-[14.4270833333vw]"
           >
-            <h1 class="text60">Privacy Policy</h1>
+            <h1 data-aos="fade-up" class="text60">Privacy Policy</h1>
           </div>
         </div>
       </section>
@@ -177,7 +188,7 @@
           </p>
         </div>
       </section>
-      <section class="lg:pt-[13.0208333333vw] pt1">
+      <section class="lg:pt-[7.0208333333vw] pt1">
         <div
           class="relative sm:py-[12vw] py-[10vw] lg:pt-[4.27083333333vw] lg:pb-[8.02083333333vw] lg:px-[9.79166666667vw] sm:px-[6%] px-[5%] flex justify-end overflow-hidden"
         >
@@ -193,15 +204,19 @@
               class="mx-[auto] sm:w-[90%] lg:w-[81%] w-[81%] flex flex-col items-start"
             >
               <div class="text-[#18181B]">
-                <h3 class="text50">
+                <h3 data-aos="fade-up" class="text50">
                   We are here to assist you in any way we can
                 </h3>
-                <p class="text22 lg:mt-[1.04166666667vw] mt1">
+                <p
+                  data-aos="fade-down"
+                  class="text22 lg:mt-[1.04166666667vw] mt1"
+                >
                   You can reach out to our dedicated team. We're eager to
                   provide you with the assistance you need.
                 </p>
               </div>
               <a
+                target="_blank"
                 href="https://support.grandautomation.io/login"
                 class="lg:mt-[3.125vw] sm:mt-[5vw] mt-[8vw] bg-[#992861] btn"
               >
@@ -272,6 +287,7 @@
         </div>
       </div>
     </footer>
+    <script src="./assets/javascripts/aos.min.js"></script>
     <script src="./assets/javascripts/global.js"></script>
   </body>
 </html>

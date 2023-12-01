@@ -686,21 +686,21 @@ video {
 }
 
 .text35 {
-  font-size: 6.61538461538vw;
-  line-height: 9.17948717949vw;
+  font-size: 4.8vw;
+  line-height: 7vw;
 }
 
 @media (min-width: 640px) {
   .text35 {
-    font-size: 4.60416666667vw;
-    line-height: 5.64583333333vw;
+    font-size: 3.60416666667vw;
+    line-height: 4.64583333333vw;
   }
 }
 
 @media (min-width: 1024px) {
   .text35 {
-    font-size: 1.82291666667vw;
-    line-height: 3.125vw;
+    font-size: 1.5vw;
+    line-height: 2.125vw;
   }
 }
 
@@ -992,19 +992,21 @@ video {
 
 .faq_Main.active .faq_Ans {
   margin-top: 10px;
-  max-height: 2000px;
+  max-height: 180vw;
   opacity: 1;
 }
 
 @media (min-width: 640px) {
   .faq_Main.active .faq_Ans {
     margin-top: 15px;
+    max-height: 45vw;
   }
 }
 
 @media (min-width: 1024px) {
   .faq_Main.active .faq_Ans {
     margin-top: 0.52083333333vw;
+    max-height: 24vw;
   }
 }
 
@@ -1131,6 +1133,10 @@ video {
   isolation: auto;
 }
 
+.z-\[12\] {
+  z-index: 12;
+}
+
 .z-\[1\] {
   z-index: 1;
 }
@@ -1172,12 +1178,21 @@ video {
   margin-right: auto;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-\[16px\] {
   margin-bottom: 16px;
 }
 
 .mb-\[24px\] {
   margin-bottom: 24px;
+}
+
+.mr-\[5\%\] {
+  margin-right: 5%;
 }
 
 .mt-2 {
@@ -1379,10 +1394,6 @@ video {
   width: 81%;
 }
 
-.w-\[85\%\] {
-  width: 85%;
-}
-
 .w-\[87\%\] {
   width: 87%;
 }
@@ -1393,6 +1404,10 @@ video {
 
 .w-\[90vw\] {
   width: 90vw;
+}
+
+.w-\[95\%\] {
+  width: 95%;
 }
 
 .w-full {
@@ -2715,6 +2730,14 @@ video {
   vertical-align: super;
 }
 
+.text-\[4\.61538461538vw\] {
+  font-size: 4.61538461538vw;
+}
+
+.text-\[4vw\] {
+  font-size: 4vw;
+}
+
 .text-\[7\.17948717949vw\] {
   font-size: 7.17948717949vw;
 }
@@ -2791,6 +2814,10 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.leading-\[6\.5vw\] {
+  line-height: 6.5vw;
+}
+
 .leading-\[7\.17948717949vw\] {
   line-height: 7.17948717949vw;
 }
@@ -2851,11 +2878,6 @@ video {
 .text-\[\#fff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[blue\] {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 255 / var(--tw-text-opacity));
 }
 
 .text-blue-500 {
@@ -3181,6 +3203,10 @@ video {
   transition-duration: 500ms;
 }
 
+.duration-\[500ms\] {
+  transition-duration: 500ms;
+}
+
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
@@ -3245,6 +3271,10 @@ header {
   box-shadow: 0px 5.06px 55.66px 0px rgba(0, 0, 0, 0.1);
   padding: 0.625vw;
 }
+
+/* header {
+  position: fixed;
+} */
 
 .stickyHeader {
   position: fixed;
@@ -3329,6 +3359,10 @@ header {
     overflow: hidden;
   }
 
+  .delaySmbhal {
+    transition-delay: 400ms;
+  }
+
   /* HAMBURGER  */
 }
 
@@ -3401,6 +3435,10 @@ header {
 
   .sm\:mb-\[3\.64583333333vw\] {
     margin-bottom: 3.64583333333vw;
+  }
+
+  .sm\:mr-\[0\] {
+    margin-right: 0;
   }
 
   .sm\:mt-\[24vw\] {
@@ -3487,6 +3525,10 @@ header {
     width: 92%;
   }
 
+  .sm\:w-full {
+    width: 100%;
+  }
+
   .sm\:min-w-\[20\.8333333333vw\] {
     min-width: 20.8333333333vw;
   }
@@ -3549,6 +3591,10 @@ header {
 
   .sm\:gap-y-\[8vw\] {
     row-gap: 8vw;
+  }
+
+  .sm\:overflow-hidden {
+    overflow: hidden;
   }
 
   .sm\:p-\[30px\] {
@@ -3641,8 +3687,12 @@ header {
     padding-top: 8.4166666667vw;
   }
 
-  .sm\:text-\[3\.604167vw\] {
-    font-size: 3.604167vw;
+  .sm\:text-\[2\.60416666667vw\] {
+    font-size: 2.60416666667vw;
+  }
+
+  .sm\:text-\[2\.604167vw\] {
+    font-size: 2.604167vw;
   }
 
   .sm\:text-\[4\.94791666667vw\] {
@@ -3823,10 +3873,6 @@ header {
 
   .lg\:w-\[48\.0208333333vw\] {
     width: 48.0208333333vw;
-  }
-
-  .lg\:w-\[59\.42\%\] {
-    width: 59.42%;
   }
 
   .lg\:w-\[62\.2395833333vw\] {
@@ -4046,10 +4092,6 @@ header {
     padding-top: 12.2395833333vw;
   }
 
-  .lg\:pt-\[13\.0208333333vw\] {
-    padding-top: 13.0208333333vw;
-  }
-
   .lg\:pt-\[14\.4270833333vw\] {
     padding-top: 14.4270833333vw;
   }
@@ -4082,8 +4124,16 @@ header {
     padding-top: 6.51041666667vw;
   }
 
-  .lg\:text-\[1\.82291666667vw\] {
-    font-size: 1.82291666667vw;
+  .lg\:pt-\[7\.0208333333vw\] {
+    padding-top: 7.0208333333vw;
+  }
+
+  .lg\:text-\[1\.14583333333vw\] {
+    font-size: 1.14583333333vw;
+  }
+
+  .lg\:text-\[1\.45833333333vw\] {
+    font-size: 1.45833333333vw;
   }
 
   .lg\:text-\[2\.86458333333vw\] {
