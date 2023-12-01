@@ -2853,6 +2853,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[blue\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 255 / var(--tw-text-opacity));
+}
+
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
@@ -3246,8 +3251,6 @@ header {
   top: -7vw;
   z-index: 5;
   box-shadow: 0px 5.06px 55.66px 0px rgba(0, 0, 0, 0.1);
-  padding-top: 1vw;
-  padding-bottom: 1vw;
 }
 
 .stickyHeaderTransition {
@@ -3367,11 +3370,6 @@ header {
 
 .hover\:font-bold:hover {
   font-weight: 700;
-}
-
-.hover\:text-\[\#992861\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(153 40 97 / var(--tw-text-opacity));
 }
 
 .before\:hover\:text-center:hover::before {
@@ -4117,14 +4115,14 @@ header {
     color: rgb(24 24 27 / var(--tw-text-opacity));
   }
 
-  .lg\:hover\:text-\[\#992861\]:hover {
-    --tw-text-opacity: 1;
-    color: rgb(153 40 97 / var(--tw-text-opacity));
-  }
-
   .lg\:hover\:text-\[\#18181B\]:hover {
     --tw-text-opacity: 1;
     color: rgb(24 24 27 / var(--tw-text-opacity));
+  }
+
+  .lg\:hover\:text-\[\#992861\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(153 40 97 / var(--tw-text-opacity));
   }
 }
 
