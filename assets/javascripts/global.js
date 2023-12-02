@@ -44,6 +44,8 @@ const maxTagPrice = document.querySelector(".maxTag .price");
 const plusTagDel = document.querySelector(".plusTag .del");
 const plusTagPrice = document.querySelector(".plusTag .price");
 const startBtns = document.querySelectorAll(".startBtn");
+const durationTags = document.querySelectorAll(".durationTag");
+const priceCards = document.querySelectorAll(".priceCard");
 
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
@@ -51,6 +53,7 @@ tabs.forEach((tab) => {
     // tabContents.forEach((tabContent) => {
     //   tabContent.classList.remove("active");
     // });
+
     tabs.forEach((ta) => {
       if (tab.dataset.tabTarget == "#annually") {
         proTagDel.innerHTML = "$72";
@@ -65,6 +68,9 @@ tabs.forEach((tab) => {
           const modifiedHref = splittedHref.join("");
           startBtn.href = modifiedHref;
         });
+        durationTags.forEach((tag) => {
+          tag.innerHTML = "Annually";
+        });
       } else {
         proTagDel.innerHTML = "$9";
         proTagPrice.innerHTML = "$6";
@@ -78,10 +84,14 @@ tabs.forEach((tab) => {
           const modifiedHref = splittedHref.join("");
           startBtn.href = modifiedHref;
         });
+        durationTags.forEach((tag) => {
+          tag.innerHTML = "Per month";
+        });
       }
       ta.classList.remove("active");
     });
     tab.classList.add("active");
+
     // target.classList.add("active");
   });
 });

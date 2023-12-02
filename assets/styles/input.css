@@ -67,6 +67,9 @@ body {
   .border12 {
     @apply lg:rounded-[0.625vw] sm:rounded-[1.82291666667vw] rounded-[3.58974358974vw];
   }
+  .border12recomended {
+    @apply lg:rounded-tl-[0.625vw] sm:rounded-tl-[1.82291666667vw] rounded-tl-[3.58974358974vw] lg:rounded-bl-[0.625vw] sm:rounded-bl-[1.82291666667vw] rounded-bl-[3.58974358974vw];
+  }
   .border44 {
     @apply lg:rounded-[2.29166666667vw] sm:rounded-[2.60416666667vw] rounded-[5.12820512821vw];
   }
@@ -140,6 +143,8 @@ header {
 
 .sideBar ul li a {
   text-transform: capitalize;
+  display: block;
+  width: 100%;
 }
 .heroBox {
   box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.1);
