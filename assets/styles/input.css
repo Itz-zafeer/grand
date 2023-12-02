@@ -166,6 +166,13 @@ header {
   top: 0;
 }
 
+.stickyTitle {
+  @apply top-[26.625vw] sm:top-[16.625vw] lg:top-[7.625vw];
+}
+
+.cardBoxShadow {
+  box-shadow: 0px 5.5615px 61.17647px 0px rgba(0, 0, 0, 0.1);
+}
 @media (max-width: 1024px) {
   .featuresCard {
     padding: 12px;
